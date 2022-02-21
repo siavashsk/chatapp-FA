@@ -1,0 +1,38 @@
+.MessageForm {
+  display: flex;
+  background: #ccc;
+}
+
+.input-container {
+  flex: 1;
+  margin: 1px;
+}
+
+.button-container {
+  flex: 0 0 6em;
+  margin: 1px 1px 1px 0;
+  font-size: 16px;
+}
+
+.MessageForm input,
+.MessageForm button {
+  background-image: url('./../../assets/images/whitenoise-2.png');
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: inherit;
+  height: 100%;
+  outline: none;
+  width: 100%;
+}
+
+input {
+  padding: 8px;
+}
+button {
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+button:hover {
+  background: #c8c8c880;
+}

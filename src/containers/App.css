@@ -1,0 +1,27 @@
+.App {
+  background-image: url('./../assets/images/whitenoise-1.png');
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 400px;
+  width: 98%;
+  max-width: 600px;
+  margin: 1%;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.App .MessageList {
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.App .MessageForm {
+  background-image: url('./../assets/images/whitenoise-2.png');
+  border-radius: 0 0 3px 3px;
+  box-sizing: border-box;
+  flex: 0 0 30px;
+}

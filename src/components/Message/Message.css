@@ -1,0 +1,26 @@
+.message {
+  line-height: 1.5em;
+  overflow-wrap: anywhere;
+  width: fit-content;
+  padding: 8px;
+  color: #fff;
+}
+
+.me {
+  border: 1px solid #4863de;
+  background-color: #4863de;
+  border-radius: 30px 30px 0 30px;
+  margin: 0 8px;
+  align-self: flex-start;
+}
+
+.other {
+  direction: ltr;
+  width: fit-content;
+  border: 1px solid #6933ce;
+  background-color: #6933ce;
+  color: #fff;
+  border-radius: 30px 30px 30px 0;
+  margin: 8px;
+  align-self: flex-end;
+}
